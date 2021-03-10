@@ -4,7 +4,6 @@ For up-to-date documentation on Talon's API and features, please visit https://t
 https://talon.wiki/unofficial_talon_docs/ is a great place to learn about Talon files, actions, and voice command definitions.
 
 # knausj_talon
-
 Talon configs for Mac, Windows, and Linux. Very much in progress. This is also intended to work with both Dragon Naturally Speaking and wav2letter.\
 
 Notes: 

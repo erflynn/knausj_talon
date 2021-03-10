@@ -70,5 +70,51 @@ action(user.code_false): "FALSE"
     key(enter)
 state na:
     insert("NA")
+is na:
+    "is.na()"
+    key(left)
+not na:
+    "!is.na()"
+    key(left)
+
+column names:
+    "colnames"
+filter:
+    "filter()"
+    key(left)
+group by:
+    insert("group_by()")
+    key(left)
+mutate:
+    insert("mutate()")
+    key(left)
+if else:
+    insert("ifelse()")
+    key(left)
+head:
+    insert("head()")
+    key(left)
+count:
+    insert("count()")
+    key(left)
+pivot wider:
+    insert("pivot_wider()")
+    key(left)
+pivot longer:
+    insert("pivot_longer()")
+    key(left)
+names from:
+    "names_from="
+names to:
+    "names_to="
+values from:
+    "values_from="
+values to:
+    "values_to="
+values fill:
+    "values_fill="
+are list:
+    insert("c()")
+	key(left)
 
 ^function define <user.text>$: user.code_private_function(text)
